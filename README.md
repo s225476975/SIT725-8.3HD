@@ -31,17 +31,22 @@ Trial_Shift
 - **Vanilla JavaScript**
 
 1. **Run with Docker (Recommended)**
+   
   **Requirements:**
-  - Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
+ 
+   ```bash
+   Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
+   ```
 
   **Steps:**
+  
     1. Clone this repository:
       ```bash
       git clone https://github.com/<your-username>/SIT725_Trial_Shift.git
       cd SIT725_Trial_Shift
       ```
     2. Set up environment variables in .env
-
+    
     3. Build and start the container:
       ```bash
       docker compose up --build -d
@@ -61,12 +66,14 @@ Trial_Shift
       {"name":"Udith Madushan Jayasinghe Jayasinghe Arachchige","studentId":"S225476975"}
       ```
 2. **Run Locally (Without Docker)**
+   
   **Requirements:**
 
     Node.js -> installed
     MongoDB Atlas -> cluster set up
 
   **Steps:**
+  
     1. Clone this repository
       ```bash
         git clone https://github.com/s225476975/SIT725_Trial_Shift.git
@@ -93,3 +100,4 @@ Feel free to contribute to this project by submitting issues or pull requests. M
 ## License
 
 This project is licensed under the MIT License.
+
