@@ -41,30 +41,24 @@ Trial_Shift
   **Steps:**
   
     1. Clone this repository:
-      ```
-      git clone https://github.com/<your-username>/SIT725_Trial_Shift.git
-      cd SIT725_Trial_Shift
-      ```
+         git clone https://github.com/<your-username>/SIT725_Trial_Shift.git
+         cd SIT725_Trial_Shift
+      
     2. Set up environment variables in .env
     
     3. Build and start the container:
-      ```
-      docker compose up --build -d
-      ```
+         docker compose up --build -d
+         
     4. Check logs (optional):
-      ```bash
-      docker compose logs -f app
-      ```
+         docker compose logs -f app
+
     5. Test the student endpoint:
       Open in browser or run:
-      ```
-      curl http://localhost:3000/api/student
-       ```
-
+         curl http://localhost:3000/api/student
+    
       Expected response:
-      ```
-      {"name":"Udith Madushan Jayasinghe Jayasinghe Arachchige","studentId":"S225476975"}
-      ```
+         {"name":"Udith Madushan Jayasinghe Jayasinghe Arachchige","studentId":"S225476975"}
+      
 2. **Run Locally (Without Docker)**
    
   **Requirements:**
@@ -75,20 +69,17 @@ Trial_Shift
   **Steps:**
   
     1. Clone this repository
-      ```
         git clone https://github.com/s225476975/SIT725_Trial_Shift.git
         cd SIT725_Trial_Shift
-      ```
+      
     2. Install dependencies:
-      ```
         npm install
-      ```
+     
     3. Set up environment variables in .env
 
     4. Run the application:
-      ```
         npm run dev
-      ```
+   
     5. Access the app:
       Open http://localhost:3000 in your browser.
       Test the endpoint http://localhost:3000/api/student.
@@ -100,5 +91,6 @@ Feel free to contribute to this project by submitting issues or pull requests. M
 ## License
 
 This project is licensed under the MIT License.
+
 
 
