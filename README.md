@@ -34,21 +34,21 @@ Trial_Shift
    
   **Requirements:**
  
-   ```bash
+   ```
    Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
    ```
 
   **Steps:**
   
     1. Clone this repository:
-      ```bash
+      ```
       git clone https://github.com/<your-username>/SIT725_Trial_Shift.git
       cd SIT725_Trial_Shift
       ```
     2. Set up environment variables in .env
     
     3. Build and start the container:
-      ```bash
+      ```
       docker compose up --build -d
       ```
     4. Check logs (optional):
@@ -57,12 +57,12 @@ Trial_Shift
       ```
     5. Test the student endpoint:
       Open in browser or run:
-      ```bash
+      ```
       curl http://localhost:3000/api/student
        ```
 
       Expected response:
-      ```bash
+      ```
       {"name":"Udith Madushan Jayasinghe Jayasinghe Arachchige","studentId":"S225476975"}
       ```
 2. **Run Locally (Without Docker)**
@@ -75,18 +75,18 @@ Trial_Shift
   **Steps:**
   
     1. Clone this repository
-      ```bash
+      ```
         git clone https://github.com/s225476975/SIT725_Trial_Shift.git
         cd SIT725_Trial_Shift
       ```
     2. Install dependencies:
-      ```bash
+      ```
         npm install
       ```
     3. Set up environment variables in .env
 
     4. Run the application:
-      ```bash
+      ```
         npm run dev
       ```
     5. Access the app:
@@ -100,4 +100,5 @@ Feel free to contribute to this project by submitting issues or pull requests. M
 ## License
 
 This project is licensed under the MIT License.
+
 
