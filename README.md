@@ -30,7 +30,7 @@ Trial_Shift
 - **Materialize CSS**
 - **Vanilla JavaScript**
 
-1. **Run with Docker (Recommended)**
+1. ##Run with Docker (Recommended)
    
   **Requirements:**
  
@@ -59,7 +59,7 @@ Trial_Shift
       Expected response:
          {"name":"Udith Madushan Jayasinghe Jayasinghe Arachchige","studentId":"S225476975"}
       
-2. **Run Locally (Without Docker)**
+2. ##Run Locally (Without Docker)
    
   **Requirements:**
 
@@ -91,6 +91,7 @@ Feel free to contribute to this project by submitting issues or pull requests. M
 ## License
 
 This project is licensed under the MIT License.
+
 
 
 
